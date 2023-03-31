@@ -1,0 +1,238 @@
+*{
+ margin: 0;
+padding: 0;
+/* text-decoration: none; */
+list-style: none; 
+}
+:root{
+       --landfnt: 'Alkatra', 'cursive';
+       --newfnt: 'Merriweather', serif;
+       ---abofnt: 'Gruppo', 'cursive';
+}
+/* landing-styling-start */
+
+.land-fnt{
+       font-family: var(--landfnt);
+       columns: rgb(11,28,57);
+       font-weight: 600;
+       /* opacity: 0; */
+       animation: land-fnt 1.2s ease-in-out;     
+}
+@keyframes land-fnt{
+       from{
+              /* opacity: 0; */
+              transform: translateX(-30%);
+       }
+       to{
+              transform: translateX(0);
+       }
+}
+.landfnt2{
+       
+       animation: landfnt2 1.2s ease-in-out; 
+
+}
+@keyframes landfnt2{
+       from{
+              /* opacity: 0; */
+              transform: translateX(-30%);
+       }
+       to{
+              transform: translateX(0);
+       }
+}
+
+.land-btn{
+       color: white;
+       align-items: center;
+       background-color: rgb(74,74,75);
+       padding: 4%;
+       animation: land-btn 1.2s ease-in-out;
+}
+
+@keyframes land-btn{
+       from{
+              /* opacity: 0; */
+              transform: translateX(-30%);
+       }
+       to{
+              transform: translateX(0);
+       }
+}
+.land-btn:hover{
+       background-color: rgb(255,32,32);
+       /* transform: scale(1.05); */
+       transition: .1s step-end;
+       filter: 0.;
+
+}
+   
+
+.land-img{
+       background-image: url(../images/land-11.webp);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: contain;
+       height: 400px;
+       
+}
+.image-trans{
+       transition: .3s all;
+}
+.image-trans:hover {
+       transform: scale(1.03);
+       transition: .4s all;
+       filter: 0.;
+}
+/* landing-styling-end */
+
+/* New Arrivals-product-styling-start */
+
+.new-fnt{
+       font-family: var(--newfnt);
+}
+.image-new{
+       transition: .5s all;
+}
+.image-new:hover {
+       transform: scale(1.05);
+       transition: .4s all;
+       filter: 0.;
+}
+
+
+/* New Arrivals-product-styling-end*/
+
+/* view-more-bbtn-start */
+
+.view-m-bbtn{
+       color: white;
+       background-color: rgb(255,32,32);
+
+}
+.view-m-bbtn:hover{
+       background-color: rgb(74,74,75);
+       /* transform: scale(1.05); */
+       transition: .1s step-end;
+       filter: 0.;
+
+
+}
+.btn-3{
+       color: white;
+       background-color: rgb(255,32,32);
+}
+.btn-3:hover{
+       background-color: rgb(74,74,75);
+       /* transform: scale(1.05); */
+       transition: .1s step-end;
+       filter: 0.;
+
+}
+/* view-more-bbtn-end */
+
+/* footer-styling-start */
+
+.footer-hover:hover{
+       color: rgb(255,32,32) !important;
+       transform: scale(1.09);
+}
+
+/* footer-styling-end*/
+
+/* about-us-styling-start */
+.about-p{
+       background-image: url(../images/about-us-bg.webp);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 350px;
+}
+.about-pp{
+       margin-top: 10% !important;
+       align-items: center;
+       font-weight: 900;
+}
+.line--1{
+       border-left:3px solid red ;
+}
+.btn-3:hover{
+       color: black !important;
+
+}
+.pic-absolute{
+       position: absolute;
+}
+.add-to-cart{
+       width: 100%;
+       height: 100px;
+       background-color: red;
+       z-index: 100;
+       position: relative;
+       bottom: 0;
+}
+/* popular-items-styling-start */
+
+/* Our Mission */
+.line{
+      width: 9%;
+       height: 5px;
+        /* position: absolute;  */
+       background-color: red;
+
+} 
+/*Our Mission   */
+.box-1{
+       height: 50vh;
+       width: 87%;
+       position: relative;
+     
+}
+.box-1 .box-2{
+       width: 97%;
+        height: 60vh;
+       /* background-color: black; */
+       border-radius: 10px;
+       position: relative;
+
+}
+.box1 .box-2 img{
+       /* width: 100%; */
+       /* height: 100%; */
+       border-radius: inherit;
+}
+.box-1 .add-to{
+       width: 100%;
+       height: 110px;
+       position: absolute;
+       background-color: red;
+        bottom: 100px !important;
+        opacity: 80%;
+        display: none; 
+        transition: .3s;
+        animation-name: fade-;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+}
+.box-1 :hover .add-to{
+       display: block;
+}
+
+/* .footer-text{
+       width: 80%;
+}
+@media only screen and (max-width: 767px) {
+       .footer-text{
+              width: 20%;
+       }
+} */
+
+
+
+
+
+
+
+
+/* popular-items-styling */
+
+
